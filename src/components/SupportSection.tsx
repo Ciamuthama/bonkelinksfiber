@@ -103,7 +103,7 @@ variants={fadeInUpVariants}
               </div>
               <div className="space-y-2">
                 <label className="text-[10px] font-bold uppercase tracking-widest text-slate-500 ml-1">Email</label>
-                <input name="email" required type="email" placeholder="bonkelinks16@gmail.com" className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-4 text-sm text-white focus:outline-none focus:border-accent transition-colors" />
+                <input name="email" required type="email" placeholder="example@gmail.com" className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-4 text-sm text-white focus:outline-none focus:border-accent transition-colors" />
               </div>
               </div>
               <div className="space-y-2">
