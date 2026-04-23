@@ -66,7 +66,7 @@ variants={fadeInUpVariants}
                 </div>
                 <div className="overflow-hidden w-full">
                   <p className="text-[10px] font-bold text-slate-900 uppercase tracking-widest mb-1">Email Our Team</p>
-                  <p className="text-lg md:text-2xl font-semibold text-white tracking-wider break-all md:break-normal">bonkelinkswifi.co.ke</p>
+                  <p className="text-lg md:text-2xl font-semibold text-white tracking-wider break-all md:break-normal">support@bonkelinksfiber.co.ke</p>
                 </div>
               </motion.div>
 
