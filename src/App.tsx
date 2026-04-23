@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from "motion/react";
-import React, { useState, useEffect } from "react";
-import { Share2, Menu, Mail, X } from "lucide-react";
+import { useState, useEffect } from "react";
+import { Menu, X } from "lucide-react";
 import {
   BrowserRouter as Router,
   Routes,
@@ -29,7 +29,6 @@ declare global {
 
 function Navigation() {
   const location = useLocation();
-  const navigate = useNavigate();
   const [scrolled, setScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -73,7 +72,7 @@ function Navigation() {
           onClick={() => setIsMenuOpen(false)}
           className="cursor-pointer hover:opacity-80 transition-all flex items-center"
         >
-          <Logo className="h-8 md:h-10 w-auto text-[#001e40]" />
+          <Logo className="h-8 md:h-10 w-auto text-primary" />
         </Link>
 
         <div className="hidden lg:flex items-center space-x-8 xl:space-x-12 ">
@@ -198,7 +197,7 @@ function AppContent() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-primary text-white h-full py-20 border-t border-white/5">
+      <footer className="bg-primary text-white h-full pt-20 border-t border-white/5">
         <div className="max-w-7xl mx-auto px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-10">
             <div className="space-y-6">
@@ -309,6 +308,9 @@ function AppContent() {
             </Link>
           </div>
         </div>
+        <p className="lg:text-xs text-slate-400 text-center py-3"><a href="https://ciaportfolios.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-accent underline text-xs font-medium">
+            @CiaDo
+          </a> Made it! </p>
         </div>
       </footer>
     </>
