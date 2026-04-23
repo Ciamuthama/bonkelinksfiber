@@ -13,7 +13,7 @@ export const TermsSection = () => {
           <div className="space-y-4">
             <h3 className="text-2xl font-bold text-primary tracking-tight">1. Acceptance of Terms</h3>
             <p className="text-secondary leading-relaxed ">
-              By accessing or using Bonkelinks services, you agree to be bound by these Terms of Service. If you do not agree to all of these terms, do not use our services. We provide high-speed architectural connectivity specifically designed for Nairobi's high-density corridors.
+              By accessing or using Bonkelinks services, you agree to be bound by these Terms of Service. If you do not agree to all of these terms, do not use our services. We provide high-speed connectivity specifically designed for Nairobi's high-density corridors.
             </p>
           </div>
 
