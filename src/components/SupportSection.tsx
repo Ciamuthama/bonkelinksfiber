@@ -81,7 +81,7 @@ variants={fadeInUpVariants}
                 <div>
                   <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-2">Working Hours</p>
                   <p className="text-slate-300 text-sm ">Monday - Saturday: 8:00 am to 5:00 pm</p>
-                  <p className="text-slate-300 text-sm ">Support: 24/7/365</p>
+                  <p className="text-slate-300 text-sm ">Support: 24/7</p>
                 </div>
               </motion.div>
             </div>
