@@ -1,0 +1,9 @@
+export { StatCounter } from './StatCounter';
+export { PricingSection } from './PricingSection';
+export { CoverageSection } from './CoverageSection';
+export { TestimonialsSection } from './TestimonialsSection';
+export { HomeSection } from './HomeSection';
+export { AboutSection } from './AboutSection';
+export { SupportSection } from './SupportSection';
+export { StatusSection } from './StatusSection';
+export { TermsSection } from './TermsSection';

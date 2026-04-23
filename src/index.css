@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans:  "Poppins", sans-serif;
+  
+  --color-primary: #001e40;
+  --color-primary-container: #003366;
+  --color-secondary: #515f74;
+  --color-accent: #00a9ce;
+  --color-surface: #faf8ff;
+  --color-surface-container: #eaedff;
+  --color-surface-container-low: #f2f3ff;
+  --color-surface-container-highest: #dae2fd;
+  --color-on-primary: #ffffff;
+  --color-on-surface: #131b2e;
+}
+
+@layer base {
+  body {
+    @apply bg-surface text-on-surface font-sans antialiased;
+  }
+}
+
+.bg-hero-gradient {
+  background: linear-gradient(135deg, #001e40 0%, #003366 100%);
+}
