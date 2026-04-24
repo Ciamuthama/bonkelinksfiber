@@ -37,7 +37,7 @@ const carouselSlides = [
     highlights: ["Stable and secure connection", "Proactive maintenance", "Quick issue resolution"],
     icon: Globe,
     color: "from-green-500/20 to-green-500/5",
-    image:"/uptime.png"
+    image:"/uptime.jpeg"
   },
   {
     id: 4,
