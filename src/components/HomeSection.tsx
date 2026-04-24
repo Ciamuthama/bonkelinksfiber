@@ -16,7 +16,7 @@ const carouselSlides = [
     highlights: ["HD & 4K Streaming", "Fast Downloads", "Smooth Video Calls"],
     icon: Zap,
     color: "from-accent/20 to-accent/5",
-    image:"/speed.jpg"
+    image:"https://s6.imgcdn.dev/YVzDdw.jpg"
 
   },
   {
@@ -26,7 +26,7 @@ const carouselSlides = [
     description: "With Bonkelinks hotspot access, you don't need a monthly plan to get online. Whether you need quick access for browsing, messaging, or checking emails, you can connect instantly starting from just 10 shillings.\n\nPerfect for students, travelers, and anyone who needs affordable, flexible internet on the go.",
     icon: CheckCircle2,
     color: "from-blue-500/20 to-blue-500/5",
-    image:"/image.png"
+    image:"https://s6.imgcdn.dev/YVlgiq.jpg"
 
   },
   {
@@ -37,7 +37,7 @@ const carouselSlides = [
     highlights: ["Stable and secure connection", "Proactive maintenance", "Quick issue resolution"],
     icon: Globe,
     color: "from-green-500/20 to-green-500/5",
-    image:"/uptime.jpeg"
+    image:"https://s6.imgcdn.dev/YVzs90.jpg"
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ const carouselSlides = [
     highlights: ["Expanding network reach", "Coverage in key regions", "Easy installation process"],
     icon: Headphones,
     color: "from-purple-500/20 to-purple-500/5",
-    image:"/coverage.png"
+    image:"https://s6.imgcdn.dev/YVzkjC.jpg"
   }
 ];
 
@@ -104,6 +104,7 @@ export const HomeSection = () => {
                 <img
                   src={slide.image}
                   alt={slide.title}
+                  fetchPriority="high"
                   className="absolute inset-0 w-full h-full object-cover object-center [transform:translateZ(0)]"
                   draggable={false}
                   loading={idx === 0 ? 'eager' : 'lazy'}
