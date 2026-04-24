@@ -198,7 +198,7 @@ function AppContent() {
 
       {/* Footer */}
       <footer className="bg-primary text-white h-full pt-20 border-t border-white/5">
-        <div className="max-w-7xl mx-auto px-8">
+        <div className="px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-10">
             <div className="space-y-6">
               <Link
@@ -299,7 +299,7 @@ function AppContent() {
           <p className="text-slate-400 text-center">
             © {new Date().getFullYear()} Bonkelinks All rights reserved.
           </p>
-          <div className=" text-slate-400 lg:px-10 space-x-2 lg:-mx-28">
+          <div className=" text-slate-400 lg:px-10 space-x-2">
           <Link to="/terms" className="hover:text-white transition-all">
               Terms of Service  |
             </Link> 
@@ -308,7 +308,7 @@ function AppContent() {
             </Link>
           </div>
         </div>
-        <p className="lg:text-xs text-slate-400 text-center py-3"><a href="https://ciaportfolios.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-accent underline text-xs font-medium">
+        <p className="text-xs text-slate-400 text-center py-3"><a href="https://ciaportfolios.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-accent underline text-xs font-medium">
             @CiaDo
           </a> Made it! </p>
         </div>
