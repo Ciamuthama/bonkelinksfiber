@@ -29,6 +29,7 @@ export const PricingSection = () => {
       price:"1,499",
       icon: Wifi,
       popular: false,
+      installation: true,
     },
     {
       speed: "12mbps",
@@ -38,6 +39,7 @@ export const PricingSection = () => {
       price:"1,999",
       icon: Activity,
       popular: false,
+      installation: true,
     },
     {
       speed: "20mbps",
@@ -47,6 +49,7 @@ export const PricingSection = () => {
       price:"2,999",
       icon: Gamepad2,
       popular: true,
+      installation: true,
     },
     {
       speed: "30mbps",
@@ -56,6 +59,7 @@ export const PricingSection = () => {
       price:"3,999",
       icon: Gauge,
       popular: false,
+      installation: true,
     }
    
   ];
@@ -240,6 +244,18 @@ export const PricingSection = () => {
                     >
                       ✓ {plan.feature}
                     </p>
+                    {plan.installation && (
+                      <p
+                        className={cn(
+                          "text-xs font-bold uppercase tracking-widest mt-2",
+                          plan.popular
+                            ? "text-primary/70"
+                            : "text-accent group-hover:text-accent",
+                        )}
+                      >
+                        ✓ Free Installation
+                      </p>
+                    )}
                   </div>
                   <p
                     className={cn(
