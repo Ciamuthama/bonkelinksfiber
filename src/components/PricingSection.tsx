@@ -22,7 +22,7 @@ export const PricingSection = () => {
 
   const fiberPricing = [
     {
-      speed: "6mbps",
+      speed: "8mbps",
       name: "Basic",
       description: "Ideal for light browsing",
       feature: "Affordable monthly rate",
@@ -31,41 +31,33 @@ export const PricingSection = () => {
       popular: false,
     },
     {
-      speed: "10mbps",
+      speed: "12mbps",
       name: "Standard",
       description: "Streaming + work ready",
       feature: "Best value",
       price:"1,999",
       icon: Activity,
-      popular: true,
+      popular: false,
     },
     {
-      speed: "15mbps",
+      speed: "20mbps",
       name: "Premium",
       description: "Best for gaming",
       feature: "High-performance connection",
       price:"2,999",
       icon: Gamepad2,
-      popular: false,
+      popular: true,
     },
     {
-      speed: "20mbps",
+      speed: "30mbps",
       name: "Deluxe",
       description: "High-speed for businesses",
       feature: "Business-grade reliability",
       price:"3,999",
       icon: Gauge,
       popular: false,
-    },
-    {
-      speed: "40mbps",
-      name: "Umeme",
-      description: "Plan for large enterprises",
-      feature: "Enterprise-level performance",
-      price:"8,000",
-      icon: Zap,
-      popular: false,
     }
+   
   ];
 
   const hotspotPricing = [
