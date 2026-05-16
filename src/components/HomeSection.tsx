@@ -16,7 +16,7 @@ const carouselSlides = [
     highlights: ["HD & 4K Streaming", "Fast Downloads", "Smooth Video Calls"],
     icon: Zap,
     color: "from-accent/20 to-accent/5",
-    image:"https://s6.imgcdn.dev/YVzDdw.jpg"
+    image:"https://raw.githubusercontent.com/Ciamuthama/bonkelinksfiber/40929bb651783709d4bd08f96a939d6d5602ce79/public/speed.jpg"
 
   },
   {
@@ -26,7 +26,7 @@ const carouselSlides = [
     description: "With Bonkelinks hotspot access, you don't need a monthly plan to get online. Whether you need quick access for browsing, messaging, or checking emails, you can connect instantly starting from just 10 shillings.\n\nPerfect for students, travelers, and anyone who needs affordable, flexible internet on the go.",
     icon: CheckCircle2,
     color: "from-blue-500/20 to-blue-500/5",
-    image:"https://s6.imgcdn.dev/YVlgiq.jpg"
+    image:"https://raw.githubusercontent.com/Ciamuthama/bonkelinksfiber/40929bb651783709d4bd08f96a939d6d5602ce79/dist/image.png"
 
   },
   {
@@ -37,7 +37,7 @@ const carouselSlides = [
     highlights: ["Stable and secure connection", "Proactive maintenance", "Quick issue resolution"],
     icon: Globe,
     color: "from-green-500/20 to-green-500/5",
-    image:"https://s6.imgcdn.dev/YVzs90.jpg"
+    image:"https://raw.githubusercontent.com/Ciamuthama/bonkelinksfiber/40929bb651783709d4bd08f96a939d6d5602ce79/public/uptime.jpeg"
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ const carouselSlides = [
     highlights: ["Expanding network reach", "Coverage in key regions", "Easy installation process"],
     icon: Headphones,
     color: "from-purple-500/20 to-purple-500/5",
-    image:"https://s6.imgcdn.dev/YVzkjC.jpg"
+    image:"https://raw.githubusercontent.com/Ciamuthama/bonkelinksfiber/40929bb651783709d4bd08f96a939d6d5602ce79/public/coverage.png"
   }
 ];
 
